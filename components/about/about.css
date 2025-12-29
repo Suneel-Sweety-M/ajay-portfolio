@@ -1,5 +1,6 @@
 .about {
-  background-color: #f7f5ef;
+  background-color: #000;
+  color: #fff;
   padding: 180px 80px 140px; /* extra top for fixed navbar */
   min-height: 100vh;
 }
@@ -127,9 +128,9 @@
 
 /* ================= SKILLS ================= */
 
-.skills {
+/* .skills {
   margin-top: 140px;
-}
+} */
 
 .skills__title {
   font-size: 64px;
@@ -148,6 +149,7 @@
 /* CARD */
 .skill__card {
   background: #ffffff;
+  color: #000;
   border-radius: 20px;
   padding: 40px 24px;
   display: flex;

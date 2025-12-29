@@ -13,7 +13,7 @@ import "./contact.css";
 
 export default function ContactForm() {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <h2 className="contact__title">CONTACT ME</h2>
 
       <div className="contact__wrapper">

@@ -44,6 +44,7 @@ export default function RecentWork() {
           width={180}
           height={60}
         />
+        <h1>The Tools I Use</h1>
       </div>
 
       {/* WORKS */}

@@ -1,10 +1,9 @@
-import './home.css';
+import "./home.css";
 
 export default function AboutSection() {
   return (
-    <section className="home_about">
+    <section className="home_about" id="about">
       <div className="home_about__container">
-
         {/* LEFT LABEL */}
         <div className="home_about__label">
           <p>About Me</p>
@@ -13,17 +12,18 @@ export default function AboutSection() {
         {/* RIGHT CONTENT */}
         <div className="home_about__content">
           <p className="home_about__text">
-            I am Nino Walker, a seasoned UX designer with over 8 years of
-            experience in crafting intuitive and engaging digital experiences.
-            My journey began with a background in graphic design, where I
-            discovered my passion for understanding user behavior and
-            translating it into seamless interactions.
+            I am a creative Video Editor and Graphic Designer with experience
+            working with brands like CA Bros, Xthelete, and Eagle Eye
+            Technologies. I specialize in high-quality video edits and visually
+            compelling graphic designs. My work focuses on storytelling, brand
+            consistency, and audience engagement. I aim to deliver impactful
+            visuals that strengthen brand identity and performance.
           </p>
 
           {/* STATS */}
           <div className="home_about__stats">
             <div className="home_about__stat">
-              <h3>8+</h3>
+              <h3>4+</h3>
               <span>Years Of Experience</span>
             </div>
 
@@ -32,7 +32,7 @@ export default function AboutSection() {
             </div> */}
 
             <div className="home_about__stat">
-              <h3>1k+</h3>
+              <h3>400+</h3>
               <span>Completed Projects</span>
             </div>
 
@@ -42,7 +42,6 @@ export default function AboutSection() {
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );

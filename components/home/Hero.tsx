@@ -10,14 +10,14 @@ export default function Hero() {
         <div className="hero__left">
           <div className="hero__reviews">
             <div className="hero__avatars">
-              <img src="/images/avatar1.jpg" alt="" />
-              <img src="/images/avatar2.jpg" alt="" />
-              <img src="/images/avatar3.jpg" alt="" />
+              <img src="/images/logo1.png" alt="" />
+              <img src="/images/logo2.png" alt="" />
+              <img src="/images/logo3.png" alt="" />
             </div>
 
             <div>
-              <strong>100+ reviews</strong>
-              <span> (4.96 of 5)</span>
+              <strong>Happy Clients</strong>
+              {/* <span> (4.96 of 5)</span> */}
               <p>Five-star reviews from my esteemed clients.</p>
             </div>
           </div>
@@ -26,12 +26,12 @@ export default function Hero() {
         {/* RIGHT */}
         <div className="hero__right">
           <p>
-            Hi, I’m Ajay, a passionate Video Editor
-            dedicated to bringing your stories to life through captivating visuals
-            and seamless editing.
+            Hi, I’m Ajay, a passionate Video Editor & Graphics Designer
+            dedicated to bringing your stories to life through captivating
+            visuals and seamless editing.
           </p>
 
-          <button className="hero__cta">Get In touch</button>
+          <a href="#contact" className="hero__cta">Get In touch</a>
         </div>
       </div>
 

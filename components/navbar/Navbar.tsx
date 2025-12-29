@@ -17,12 +17,13 @@ export default function Navbar() {
 
         {/* DESKTOP NAV */}
         <nav className="navbar__nav">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/services">Services</Link>
-          <span className="navbar__dropdown">Projects</span>
-          <Link href="/blog">Blog</Link>
-          <Link href="/contact">Contact</Link>
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#tools">Tools</a>
+          <a href="#testimonials">TESTIMONIALS</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
         </nav>
 
         {/* MOBILE MENU ICON */}

@@ -3,8 +3,8 @@ import Image from "next/image";
 const stories = [
   {
     id: 1,
-    title: "Create a landing page that performs great",
-    date: "Posted on Aug 28",
+    title: "Take a glimpse of my previous works",
+    date: "Video Editing",
     image: "/images/blog1.jpg",
     tag: "Help",
   },
@@ -26,9 +26,9 @@ const stories = [
 
 export default function Stories() {
   return (
-    <section className="stories">
+    <section className="stories" id="work">
       <div className="stories__header">
-        <h2>STORIES</h2>
+        <h2>MY WORK</h2>
       </div>
 
       <div className="stories__list">
@@ -36,7 +36,7 @@ export default function Stories() {
           <div key={story.id} className="story">
             {/* IMAGE */}
             <div className="story__media">
-              <span className="story__tag">{story.tag}</span>
+              {/* <span className="story__tag">{story.tag}</span> */}
 
               <Image
                 src={story.image}

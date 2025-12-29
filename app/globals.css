@@ -25,6 +25,7 @@ body {
   background: #f7f5ef;
   color: #000;
   padding-top: 96px;
+  scroll-behavior: smooth;
 }
 
 a {

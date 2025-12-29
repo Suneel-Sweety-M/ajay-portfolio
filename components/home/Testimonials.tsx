@@ -3,59 +3,59 @@ import Image from "next/image";
 const testimonials = [
   {
     id: 1,
-    name: "Zonathon Doe",
-    role: "CEO & Founder X",
+    name: "Surya Prasad",
+    role: "CEO & Founder of Xthlete",
     text:
-      "Financial planners help people to knowledge in about how to invest and in save their moneye the most efficient way eve plan ners help people tioniiio know ledige in about how.",
-    avatar: "/images/avatar1.jpg",
+      "Amazing experience working with him. The creativity, attention to detail, and timely delivery exceeded our expectations. Every requirement was understood perfectly and executed flawlessly.",
+    avatar: "/images/surya.jpeg",
     large: true,
   },
   {
     id: 2,
-    name: "Martin Smith",
-    role: "CEO & Founder Google",
+    name: "Arun Anbu",
+    role: "CEO & Founder of CABros",
     text:
-      "Asian planners help people to knowledge in about how to invest and in save their moneye the most efficient way eve plan ners help people tioniiio know ledige in about how.",
-    avatar: "/images/avatar2.jpg",
+      "Highly professional and reliable. The quality of work was outstanding, and all revisions were handled patiently until we were fully satisfied. Truly a great creative partner.",
+    avatar: "/images/arun.jpeg",
     large: true,
   },
   {
     id: 3,
-    name: "Methail Dev",
-    role: "Managing Director – Paydesk",
+    name: "Vishnu Inugala",
+    role: "CEO & Founder of Eagle Eye Technologies",
     text:
-      "Hello planners help people to knowledge in about how to invest and in save their moneye the most efficient way eve plan ners help people tioniiio know ledige in about how.",
-    avatar: "/images/avatar3.jpg",
+      "Excellent work ethic and creativity. He delivered exactly what we needed and even added extra value with his ideas. Would definitely recommend and work with him again.",
+    avatar: "/images/vishnu.png",
   },
-  {
-    id: 4,
-    name: "Eliana Tweet",
-    role: "CEO & Founder Tesla",
-    text:
-      "Financial planners help people to knowledge in about how to invest and in save their moneye the most efficient way eve plan ners help people tioniiio know ledige in about how.",
-    avatar: "/images/avatar2.jpg",
-  },
-  {
-    id: 5,
-    name: "Henry Clark",
-    role: "Founder Oxyzen",
-    text:
-      "Yelp planners help people to knowledge in about how to invest and in save their moneye the most efficient way eve plan ners help people tioniiio know ledige in about how.",
-    avatar: "/images/avatar1.jpg",
-  },
-  {
-    id: 6,
-    name: "Henry Clark",
-    role: "Founder Oxyzen",
-    text:
-      "Yelp planners help people to knowledge in about how to invest and in save their moneye the most efficient way eve plan ners help people tioniiio know ledige in about how.",
-    avatar: "/images/avatar1.jpg",
-  },
+  // {
+  //   id: 4,
+  //   name: "Eliana Tweet",
+  //   role: "CEO & Founder Tesla",
+  //   text:
+  //     "Financial planners help people to knowledge in about how to invest and in save their moneye the most efficient way eve plan ners help people tioniiio know ledige in about how.",
+  //   avatar: "/images/avatar2.jpg",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Henry Clark",
+  //   role: "Founder Oxyzen",
+  //   text:
+  //     "Yelp planners help people to knowledge in about how to invest and in save their moneye the most efficient way eve plan ners help people tioniiio know ledige in about how.",
+  //   avatar: "/images/avatar1.jpg",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Henry Clark",
+  //   role: "Founder Oxyzen",
+  //   text:
+  //     "Yelp planners help people to knowledge in about how to invest and in save their moneye the most efficient way eve plan ners help people tioniiio know ledige in about how.",
+  //   avatar: "/images/avatar1.jpg",
+  // },
 ];
 
 export default function Testimonials() {
   return (
-    <section className="testimonials">
+    <section className="testimonials" id="testimonials">
       <h2 className="testimonials__title">TESTIMONIALS</h2>
 
       <div className="testimonials__grid">
